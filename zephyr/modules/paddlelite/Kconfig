@@ -1,0 +1,12 @@
+# Copyright (c) 2021 Intel Corporation
+# Copyright 2022 Arm Limited and/or its affiliates <open-source-office@arm.com>
+# SPDX-License-Identifier: Apache-2.0
+
+
+config PADDLE_LITE
+	bool "Paddle Lite Support"
+	select REQUIRES_FULL_LIBCPP
+	help
+	  This option enables the Paddle Lite library.
+
+

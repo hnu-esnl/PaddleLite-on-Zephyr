@@ -1,0 +1,4 @@
+name: paddlelite
+build:
+  cmake-ext: True
+  kconfig-ext: True
